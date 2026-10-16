@@ -1,0 +1,21 @@
+
+{
+  "schemaVersion": 1,
+  "id": "adminwheel",
+  "version": "${version}",
+  "name": "AdminWheel",
+  "description": "Radial moderation menu for Minecraft 1.19.4",
+  "authors": ["DarvinMiller"],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.darvinmiller.adminwheel.AdminWheelClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "1.19.4",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
